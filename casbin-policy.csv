@@ -1,0 +1,5 @@
+p, james, project-001, update-project, True
+p, wonder, * , list-project, True
+p, lily, * , delete-project, True
+p, *, *, view-project, r.sub.id in r.obj.members
+p, * , * , * , r.sub.is_superuser
